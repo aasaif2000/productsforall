@@ -1,0 +1,26 @@
+$primarybackgroundcolor : lightblue;
+$primarytextcolor :  rgb(2, 46, 2);
+
+
+body{
+    background : $primarybackgroundcolor;
+    color : $primarytextcolor;
+    margin:0;
+    padding:5em;
+    text-align: center;
+    justify-content: center;
+}
+.logo{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+}
+.list{
+    padding:20px;
+    background: #fff;
+    color:$primarytextcolor;
+}
+.aninmation{
+    border:1px solid red;
+}
